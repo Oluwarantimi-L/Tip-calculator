@@ -1,6 +1,9 @@
+*{
+    box-sizing: border-box;
+}
 .container {
-    max-width: 500px;
-    margin: 50px auto;
+    max-width: 600px;
+    margin: 100px auto;
     padding: 20px;
     border: 1px solid #ccc;
     border-radius: 10px;
@@ -12,8 +15,8 @@ h1 {
     color: #333;
     line-height: 0.5;
 }
-#bill-amount, #tip-percentage {
-    width: 90%;
+#bill, #tip {
+    width: 100%;
     padding: 10px;
     margin: 10px 0;
     border: 1px solid #ccc;
@@ -21,7 +24,7 @@ h1 {
     font-size: 16px;
 }
 .submit-button {
-    width: 90%;
+    width: 100%;
     padding: 10px;
     background-color: #b33ed4;
     color: white;
@@ -29,4 +32,9 @@ h1 {
     border-radius: 5px;
     font-size: 16px;
     cursor: pointer;
+    font-size: 18px;
+    transition: background-color 0.3s ease;
+}
+.submit-button:hover {
+    background-color: #9c2cb0;
 }
